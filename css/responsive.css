@@ -1,0 +1,53 @@
+/* ============================ Responsive CSS Code Start max With 992px  ======================*/
+
+@media only screen and (max-width: 992px) {
+
+}
+/* ============================ Responsive CSS Code End max With 992px  ======================*/
+
+/*  =======================  Responsive CSS Code Start max With 768px  =====================*/ 
+
+@media only screen and (max-width: 768px) {
+
+ /*---------------------------- Header CSS Code Start ------------------------------*/
+
+.navbar .mobile {
+    position: absolute;
+    top: 80px;
+    background-color: var(--bg-primary);
+    width: 0%;
+    left:0;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+.navbar .mobile.mobile_open{
+    width: 100%;
+    right: 0;
+}
+
+
+
+.nev_menu {
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.toggle_btn {
+    display: block;
+}
+
+
+/*---------------------------- Header CSS Code End ------------------------------*/
+
+
+}/* =======================  Responsive CSS Code End max With 768px  =====================*/
+
+
+
+/* =====================  Responsive CSS Code Start max With 576px ===================== */
+
+@media only screen and (max-width: 576px) {
+
+    /* Header CSS Code Start */
+
+}

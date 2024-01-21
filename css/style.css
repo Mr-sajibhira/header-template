@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+/* Golbal CSS Start */
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+
+    --bg-primary:#030637;
+    --whait:#ffffff;
+    --orange:#FF6C22; 
+}
+
+
+
+
+
+/* Container */
+.container{
+   max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;/* 20px */
+    padding-right: 1.25rem;/* 20px */
+}
+
+/* Row */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Column */
+
+
+.col_6{
+    width: 50%;
+    padding: 1.25em;/* 20px */
+}
+
+/* Flex Code Start */
+.flex{
+    display: flex;
+}
+
+.flex_end{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.p_0{
+    padding: 0;
+}
+
+.y_center{
+    align-items: center;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+/* -----------------------------------------Golbal CSS End ------------------------------------------*/
+
+/* Header CSS Code Start */
+header{
+ background-color: var(--bg-primary);
+ position: relative;
+}
+
+.header_logo{
+
+}
+
+.header_logo img{
+    width: 70px;
+}
+
+.navbar{
+
+}
+
+.navbar > nav{
+
+}
+
+.navbar > nav > .nev_menu{
+    
+}
+
+.navbar > nav > ul > li{
+    list-style: none;
+    padding: 0.25rem 0.5rem;
+    
+}
+
+
+.navbar > nav > ul > li > a{
+    text-decoration: none;
+    font-size: 1rem; /* 16px */
+    font-weight: 500;
+    color: var(--whait);
+}
+
+.navbar > nav > ul > li > a:hover{
+    color: var(--orange);
+}
+
+
+.navbar > nav > .nev_menu .active{
+    color: var(--orange);
+}
+
+
+.toggle_btn{
+    display: none;
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+    border-radius: 4px;
+}
+
+.toggle_btn i{
+    font-size: 24px;
+    color: var(--whait);
+    padding:8px;
+}
+
+/* Header CSS Code End */
